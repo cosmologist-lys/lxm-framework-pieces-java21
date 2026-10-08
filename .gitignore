@@ -14,6 +14,10 @@ out/
 # Maven 相关 (注意：不要忽略 mvnw 和 .mvn 文件夹)
 # ====================
 .m2/
+.mvn/
+.github/
+docs/
+.gitignore
 
 # ====================
 # Gradle 相关 (注意：不要忽略 gradlew 和 gradle/wrapper 文件夹)
