@@ -34,3 +34,5 @@
 - 输入到自定义 SQL/公式/URL 附件仍需应用自己的授权与参数限制。框架不会替代业务访问规则。
 
 构建与实际测试结果见 [verification](verification.md)；上述已确认缺陷已修复，列明的功能边界不是已实现的能力。
+
+补充审查：Filter 原 asyncSupported=false 会阻断启用 Enigma 时普通异步接口。改为容器支持 async，仅已声明保护的请求拒绝 startAsync；普通 Callable 接口已有真实 HTTP 回归。
